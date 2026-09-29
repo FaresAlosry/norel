@@ -1,0 +1,144 @@
+{
+    "MethodCalled": "<!-- methodcalled name=\"targetGfeWebBanners\" date=\"2026-09-20T21:41:29+0000\" ResponseStatus=\"Success 200\" --><!-- 231-94-84-01-pi~21 -->",
+    "theParsedParms": "<!-- targetGfeWebBanners theGeForceClientVersion:11.0.9.251 theProductFamilyDeviceID:null theClientIp:216.228.112.22 theClientCampaignID:GFE_OOBE_BANNER theLanguageCode:1033 theLanguageCultureCode:en-US theLanguageID:en_US theLanguageIDFb: theCpuID:AMD Ryzen 5 5600 6-Core Processor               theSysMem:23GB theOperatingSystemCode:10.0.26200 theOperatingSystemIs64Bit:1 theDriverIsBetaFlag:0 theVendorID:null theSubSystemID:null theSubVendorID:null theInstalledVersion:591.86 -->",
+    "RewardXmlContentLog": "<!-- Not Using Drupal _getGfeBannerXmlContent $_USE_DRUPAL:0 $theContentType:\/gfe-banners\/ $theVersion:11.0.9.251 $theLanguageID:en_US versionToGet:11.0.0 , s3:\/\/prd-usw2-gfwsl-store-s3\/gfwslActive\/Active\/en_US\/en_US\/gfe\/11.0.0\/gfe-banners\/bannerContent.xml -->",
+    "RewardsTargetinglog": "<!-- _evaluateGfeRewardsTargeting $theParsedParms: --><!-- _evaluateGfeRewardsTargeting theCpuID:AMD Ryzen 5 5600 6-Core Processor               theGeForceClientVersion:11.0.9.251 theSysMem:23GB theProductFamilyDeviceID:1E87 theProductArchFamily: theOperatingSystemCode:10.0.26200 theOperatingSystemIs64Bit:64 theLanguageCode:1033 theLanguageCultureCode: reverselookup_theLanguageID:en_US theDriverIsBetaFlag:1 theVendorID:10DE theSubSystemID:1302 theSubVendorID:10DE theInstalledVersion:591 theSystemIssQuadroFlag:1 theSystemIsLaptopFlag:1 theUid:null theClientIp:216.228.112.22 theGid:null theEcidHash:null --><!-- _evaluateGfeRewardsTargeting $todaysDate:2026-09-20T21:41:29+0000 $todaysDate <= $validTo:1 $todaysDate >= $validFrom:1 $targetLifeSpanStateFlag:true --><!-- _evaluateGfeRewardsTargeting $targetLifeSpanStateFlag:true --><!-- _evaluateGfeRewardsTargeting $supportedGPUFamilyStateFlag:true --><!-- _evaluateGfeRewardsTargeting $supportedGPUStateFlag:true --><!-- _evaluateGfeRewardsTargeting $targetMinDisplayDriverVersion:true --><!-- _evaluateGfeRewardsTargeting $supportedOsStateFlag:true --><!-- _evaluateGfeRewardsTargeting $excludedSysLocalStateFlag:true --><!-- _evaluateGfeRewardsTargeting $includedSysLocalStateFlag:true --><!-- _evaluateGfeRewardsTargeting $theIp2LocCountryCode:US $excludedGeoLocalStateFlag:true --><!-- _evaluateGfeRewardsTargeting $theIp2LocCountryCode:US $includedGeoLocalStateFlag:false --><!-- _evaluateGfeRewardsTargeting $includedGeoLocalStateFlag:false --><!-- _evaluateGfeRewardsTargeting: $theEvaluateGfeRewardsTargeting:true -->",
+    "html": {
+        "body": {
+            "sessionState": {
+                "overallState": "true",
+                "gfeVersion": "11.0.9.251",
+                "versionToGet": "11.0.0"
+            },
+            "banner": {
+                "ID": "GFE_OOBE_BANNER",
+                "Type": "GFE_UI_EVENT",
+                "Name": "GFE-OOBE-BANNER",
+                "overallState": "true",
+                "bannerGfeNg": [
+                    {
+                        "image": "https:\/\/images.nvidia.com\/eveInst2.0\/us\/13202011GFE\/root\/images\/GFE3-GRD-SHARE-OPT-789x362.png",
+                        "video": {
+                            "url": "https:\/\/images.nvidia.com\/content\/GRD\/R378GA2\/assets\/shvids\/utube\/R8TbakWyqu4.mp4"
+                        },
+                        "description": "nvApp Installer Content",
+                        "linksTo": "",
+                        "contentUrl": "https:\/\/www.nvidia.com\/en-us\/geforce\/billboards\/gfe\/clientinstaller\/client-oct2023-banners\/"
+                    },
+                    {
+                        "image": "https:\/\/images.nvidia.com\/content\/GRD\/362.00\/assets\/updates\/Dying_Light\/DyingLight-1144x298.jpg",
+                        "video": {
+                            "url": "https:\/\/youtu.be\/SHySNHmur8E"
+                        },
+                        "description": "Dying Light:The Following has arrived.",
+                        "linksTo": "",
+                        "contentUrl": "http:\/\/www.nvidia.com\/object\/eve-gfe-gtx-1080ti-ultimate-rig-honor-fblive-mar17-banners.html?t=D:1BA0L:1033O:10.0_1LC:USA"
+                    },
+                    {
+                        "image": "https:\/\/images.nvidia.com\/content\/GRD\/362.00\/assets\/updates\/Far_Cry_Primal\/FarCryPrimal-1144x298.jpg",
+                        "video": {
+                            "url": "https:\/\/youtu.be\/HI_HA5Hfr54"
+                        },
+                        "description": "Far Cry Primal Trailer",
+                        "linksTo": "TBD",
+                        "contentUrl": "http:\/\/www.nvidia.com\/object\/eve-gfe-gtx-1080ti-ultimate-rig-honor-fblive-mar17-banners.html?t=D:1BA0L:1033O:10.0_1LC:USA"
+                    }
+                ],
+                "target": {
+                    "overallState": "true",
+                    "lifeSpan": {
+                        "startDate": "2016-08-29T01:00:00+01:00",
+                        "endDate": "2029-12-31T01:00:00+01:00",
+                        "except": "none",
+                        "expiredMessage": "Banners for OOBE Expired",
+                        "state": "true"
+                    },
+                    "jUID": {
+                        "message": "Jarvis UID NOT found in Campaign Segmentation",
+                        "state": "false",
+                        "jUid": "null",
+                        "cmpId": "null"
+                    },
+                    "supportedGPU": {
+                        "message": "See gpu node list",
+                        "state": "true",
+                        "familyArchItem": null,
+                        "gpu": null
+                    },
+                    "drvrVrsn": {
+                        "message": "GeForce 0.000.00 Driver or later",
+                        "minVersion": "000.00",
+                        "state": "true"
+                    },
+                    "os": {
+                        "message": "All-OS-Supported",
+                        "state": "true",
+                        "item": [
+                            {
+                                "name": "ALL",
+                                "osCode": "ALL",
+                                "bitNess": "ALL",
+                                "state": "true"
+                            }
+                        ]
+                    },
+                    "local": {
+                        "state": "true",
+                        "include": {
+                            "item": {
+                                "ID": "ALL",
+                                "Language": "ALL",
+                                "state": "true",
+                                "0": null
+                            }
+                        }
+                    },
+                    "geoLocal": {
+                        "state": "true",
+                        "exclude": {
+                            "ip2loc": "true",
+                            "ip2locCC": "US",
+                            "item": [
+                                {
+                                    "message": "Cuba",
+                                    "ID": "CU",
+                                    "state": "false"
+                                },
+                                {
+                                    "message": "China",
+                                    "ID": "CN",
+                                    "state": "false"
+                                },
+                                {
+                                    "message": "Iran",
+                                    "ID": "IR",
+                                    "state": "false"
+                                },
+                                {
+                                    "message": "North Korea",
+                                    "ID": "KP",
+                                    "state": "false"
+                                },
+                                {
+                                    "message": "Sudan",
+                                    "ID": "SD",
+                                    "state": "false"
+                                },
+                                {
+                                    "message": "Syria",
+                                    "ID": "SY",
+                                    "state": "false"
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "Message": {
+                "title": "GFE CLient Installer Banner",
+                "description": "GFE nvApp Client out of the box installer banners"
+            }
+        }
+    },
+    "SysStats": "<!-- rTime:1150 sTime:587 -->"
+}
